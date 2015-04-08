@@ -1,0 +1,775 @@
+@font-face{
+	font-family: colossalis;
+	src:url('Colossalis Bold.ttf');
+}
+html{
+		background-color: #eee;
+
+}
+body{
+	color:#888;
+	font-family: "trebuchet ms",Tahoma,Arial;
+}
+img.error{
+	padding-left: 20%;
+	padding-top: 50px;
+}
+/*** WIDTH *****/
+.container,
+nav,
+.slider,
+footer{
+	width: 100%;
+	max-width: 960px;
+}
+.container{
+	margin: 0 auto;
+	background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #3b5998;
+	font-family: colossalis;Impact;
+}
+.clear{
+	clear: both;
+}
+span.grey{
+	color: #ccc;
+}
+.info h2{
+	padding-left: 10%;
+}
+
+/******LOGO********/
+.logo{
+	float: left;
+	max-width: 50%;
+	margin-bottom: -20px;
+	margin-left: 20px;
+}
+.logo h2{
+	display: inline-block;
+	font-size: 3em;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+.logo h3{
+	display: inline-block;
+	color:#3b5998;
+	font:1.75em;
+	font-family: "trebuchet ms",Tahoma;
+	border-left: 2px solid #a1a1a1;
+	padding-left: 10px;
+	position: relative;
+	top:-1em;
+}
+/*****SOCIAL MEDIA***/
+
+.social{ 
+	float: right;
+	text-align: right;
+	margin-right: 30px;
+}
+.social ul{ 
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+
+}
+.social p{ 
+	margin: 10px 0 2px 0;
+	font-size: 0.85em;
+}
+.social ul li{ 
+	display: inline-block;
+}
+.social ul li a i{ 
+	text-decoration: none;
+	color: #a1a1a1;
+	font-size: 2.5em;
+}
+.social a i.fa-facebook-square{ 
+	color: #3b5998;
+}
+.social a i.fa-twitter-square{ 
+	color: #4099ff;
+}
+.social a i.fa-windows{ 
+	color: #4099ff;
+	margin-right: 5px;
+}
+.social a i.fa-google-plus-square{ 
+	color: #d34836;
+}
+.social a i.fa-apple{ 
+	margin-right: 5px;
+
+	color: #d34836;
+}
+.social a i.fa-youtube-square{ 
+	color: #ff3333;
+}
+.social a i.fa-android{ 
+	color: green;
+}
+
+
+/***********NAV**********/
+nav{ 
+	clear: both;
+	border:1px solid #ccc;
+	height: 45px;
+}
+.main-nav{ 
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.main-nav li{ 
+	border-right: 1px solid #ccc;
+	position: relative;
+	float: left;
+	width: 130px;
+	height: 45px;
+}
+.main-nav li a{ 
+	text-align: center;
+	color: #a1a1a1;
+	text-decoration: none;
+	position: absolute;
+	width: 130px;
+	height: 31px;
+	padding-top: 14px;
+	transition:background-color:.9s;
+	-webkit-transition:background-color:.9s;
+	-moz-transition:background-color:.9s;
+}
+.main-nav li a:hover{ 
+	background-color: #3b5998;
+	color: #fff;
+}
+.search{ 
+	color: #a1a1a1;
+	float: right;
+	margin: 10px 10px  0 0;
+}
+.search input{ 
+	border:1px solid #a1a1a1;
+	background-color: #eee;
+	border-radius: 30px;
+	padding-left: 8px;
+}
+.search a{ 
+	color: #a1a1a1;
+	text-decoration: none;
+}
+
+
+/**********SLIDER***********/
+.slider{
+	width: 960px;
+	height: 230px;
+	margin-top: 20px;
+	
+}
+/**
+.slider-prev,
+.slider-next{
+color: #fff;
+font-size: 30px;
+text-decoration: none;
+position: absolute;
+top: 100px;
+transiton:opacity .5s;
+}
+.slider-prev{
+	left: 10px;
+}
+.slider-next{
+	right: 10px;
+}
+.slider-prev:hover,
+.slider-next:hover{
+opacity: 1;
+}
+**/
+
+/****4 COLUMNS********/
+.meet-the-team{ 
+	background-color: #fff;
+	padding-top: 20px;
+	margin-bottom: 2px;
+	font-family: "trebuchet ms",Tahoma,Arial;
+}
+.column-one-fourth{ 
+	background-color: #fff;
+	border-left: none;
+	width: 218.75px;
+	float: left;
+	padding: 10px;
+}
+.column-one-fourth a{
+	text-decoration: none;
+	color: #a1a1a1;
+}
+.column-one-fourth:first-child{ 
+}
+
+.image-container{ 
+	position: relative;
+	height: 160px;
+}
+.image-caption{ 
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	opacity: .6;
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+	padding: 0px 10px;
+}
+
+.wor{
+	margin-top: 180px;
+}
+/*******FOOTER********/
+footer{
+	margin-top: 20px;
+	background-color:#555;
+	border-top: 3px solid #a1a1a1;
+	width: 100%;
+	overflow: hidden;
+}
+.footer-row{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.copyright{
+	border:1px solid #888;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+footer h3{
+	color: #fff;
+	font: 1.6em "trebuchet ms",Tahoma,Arial;
+}
+.thumbnails{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.thumbnails li {
+	float: left;
+	margin-right: 8px;
+}
+p.center
+{
+	text-align: center;
+}
+
+
+
+/****************CLEARFIX***********/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
+/*************FORMS*************/
+
+
+.form label,
+.form input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="date"],
+input[type="url"],
+.form select,
+.form fieldset,
+.info 
+{
+	margin-left:35%;
+}
+
+input[type="submit"]
+{
+  border: none;
+  background-color: #3b5998;
+  border-radius: 30px;
+  color: #fff;
+  padding: 1.3em 2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin:40px 40%;
+  width: 20%;
+}
+
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="date"],
+.form input[type="url"],
+select
+{
+	width:30%;
+	height: 30px;
+}
+
+.form label{
+	font-weight: bold;
+	color: #444;
+	width: 99%;
+}
+
+span.infoo{
+	font-size: 20px;
+		color: #3b5998;
+
+}
+
+
+#registrar label.error {
+  	color:#3b5998;
+  	font-weight:bold;
+	width: 99%;
+	font-size: 12px;
+	clear: left;
+	margin-left: 5%;
+}
+fieldset{
+  width:30%;
+}
+
+/*************2FORMS*************/
+
+
+.formm label,
+.formm input[type="text"],
+.formm input[type="email"],
+.formm input[type="password"],
+.formm input[type="submit"],
+.formm input[type="date"],
+.formm input[type="number"],
+.formm textarea,
+.formm select,
+.formm fieldset,
+.info 
+{
+	margin-left:30%;
+}
+
+.formm input[type="submit"]
+{
+  border: none;
+  background-color: #3b5998;
+  border-radius: 30px;
+  color: #fff;
+  padding: 1.3em 2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin:40px 40%;
+  width: 20%;
+}
+
+
+.formm input[type="text"],
+.formm input[type="password"],
+.formm input[type="email"],
+.formm input[type="date"],
+select
+{
+	width:30%;
+	height: 30px;
+}
+
+.formm label{
+	font-weight: bold;
+	color: #444;
+	width: 99%;
+}
+
+span.infoo{
+	font-size: 20px;
+		color: #3b5998;
+
+}
+
+
+#registrar label.error {
+  	color:#3b5998;
+  	font-weight:bold;
+	width: 99%;
+	font-size: 12px;
+	clear: left;
+	margin-left: 5%;
+}
+fieldset{
+  width:30%;
+}
+/*************3FORMS*************/
+
+
+.formmm label,
+.formmm input[type="text"],
+.formmm input[type="email"],
+.formmm input[type="password"],
+.formmm input[type="submit"],
+.formmm input[type="date"],
+.formmm input[type="number"],
+.formmm select,
+.formmm fieldset,
+.formmm textarea,
+.info 
+{
+	margin-left:20%;
+}
+
+.formmm input[type="submit"]
+{
+  border: none;
+  background-color: #3b5998;
+  border-radius: 30px;
+  color: #fff;
+  padding: 1.3em 2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin:40px 40%;
+  width: 20%;
+}
+
+
+.formmm input[type="text"],
+.formmm input[type="password"],
+.formmm input[type="email"],
+.formmm input[type="date"],
+select
+{
+	width:30%;
+	height: 30px;
+}
+
+.formmm label{
+	font-weight: bold;
+	color: #444;
+	width: 99%;
+}
+
+span.infoo{
+	font-size: 20px;
+		color: #3b5998;
+
+}
+
+
+#registrar label.error {
+  	color:#3b5998;
+  	font-weight:bold;
+	width: 99%;
+	font-size: 12px;
+	clear: left;
+	margin-left: 5%;
+}
+.formmm fieldset{
+  width:70%;
+}
+/*************4FORMS*************/
+
+
+.formmmm label,
+.formmmm input[type="text"],
+.formmmm input[type="email"],
+.formmmm input[type="password"],
+.formmmm input[type="submit"],
+.formmmm input[type="date"],
+.formmmm input[type="number"],
+.formmmm select,
+.formmmm fieldset,
+.info 
+{
+	margin-left:20%;
+}
+
+.formmmm input[type="text"]{
+	margin-left: 50%;
+}
+
+.formmmm input[type="submit"]
+{
+  border: none;
+  background-color: #3b5998;
+  border-radius: 30px;
+  color: #fff;
+  padding: 1.3em 2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin:40px 40%;
+  width: 20%;
+}
+
+
+.formmmm input[type="text"],
+.formmmm input[type="password"],
+.formmmm input[type="email"],
+.formmmm input[type="date"],
+select
+{
+	width:30%;
+	height: 30px;
+}
+
+.formmmm label{
+	font-weight: bold;
+	color: #444;
+	width: 99%;
+}
+
+span.infoo{
+	font-size: 20px;
+		color: #3b5998;
+
+}
+
+
+#registrar label.error {
+  	color:#3b5998;
+  	font-weight:bold;
+	width: 99%;
+	font-size: 12px;
+	clear: left;
+	margin-left: 5%;
+}
+.slide-image{
+	display: none;
+}
+
+.formmmm fieldset{
+  width:60%;
+}
+
+
+
+/******************MOBILE**************/
+@media screen and (max-width:650px){
+
+.slide, 
+.marquee_container, 
+.autoplay,
+.marquee_photos, 
+.slide-image,
+.marquee_nav,
+.search,
+.social{
+	display: none;
+}
+
+.slider{
+	width: 100%;
+	max-width: 960px;
+	height: 230px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+
+}
+.slide-image{
+	display:none;
+	width: 100%;
+}
+
+p.center
+{
+	text-align: left;
+}
+
+.meet-the-team{ 
+	background-color: #fff;
+	padding-top: 0px;
+	margin-bottom: 2px;
+	font-family: "trebuchet ms",Tahoma,Arial;
+	text-align: center;
+}
+.column-one-fourth{ 
+	background-color: #fff;
+	border-left: none;
+	width: 100%;
+	max-width: 250px;
+	float: left;
+	padding: 10px;
+	margin-left: 5%;
+}
+
+.image-container img{ 
+	position: relative;
+	height: 160px;
+	width: 270px;
+}
+
+.image-caption{ 
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	opacity: .6;
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	padding: 0px 10px;
+}
+
+.logo h3{
+
+	border-left: 0px solid #a1a1a1;
+}
+
+/******LOGO********/
+.logo{
+	float: left;
+	max-width: 100%;
+	margin-bottom: -20px;
+	margin-left: 10%;
+}
+
+
+/***********NAV**********/
+nav{ 
+	clear: both;
+	border:0px solid #ccc;
+	height: 45px;
+}
+.main-nav{ 
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.main-nav li{ 
+	border-right: 0px solid #ccc;
+	position: relative;
+	float: left;
+	width: 320px;
+	height: 45px;
+	background-color: #3b5998;
+	border-bottom: 1px solid #fff;
+
+}
+.main-nav li a{ 
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	width: 100%;
+	height: 31px;
+	padding-top: 14px;
+	transition:background-color:.9s;
+	-webkit-transition:background-color:.9s;
+	-moz-transition:background-color:.9s;
+}
+.main-nav li a:hover{ 
+	background-color: #3b5998;
+	color: #fff;
+}
+/*************FORMS*************/
+
+
+.form label,
+.form input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="date"],
+input[type="url"],
+.form select,
+.form fieldset,
+.info 
+{
+	margin-left:25%;
+}
+
+input[type="submit"]
+{
+  border: none;
+  background-color: #3b5998;
+  border-radius: 30px;
+  color: #fff;
+  padding: 1.3em 2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin:40px 30%;
+  width: 50%;
+}
+
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="date"],
+.form input[type="url"],
+select
+{
+	width:60%;
+	height: 30px;
+}
+
+.form label{
+	font-weight: bold;
+	color: #444;
+	width: 99%;
+}
+
+span.infoo{
+	font-size: 20px;
+		color: #3b5998;
+
+}
+
+
+#registrar label.error {
+  	color:#3b5998;
+  	font-weight:bold;
+	width: 99%;
+	font-size: 12px;
+	clear: left;
+	margin-left: 5%;
+}
+fieldset{
+  width:30%;
+}
+
+
+
+}
+
+
+@media screen and (max-width:900px){
+.search{
+	display: none;
+}
+}

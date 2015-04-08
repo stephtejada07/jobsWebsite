@@ -1,0 +1,81 @@
+body {
+	font-family: verdana;
+}
+
+#body {
+	font-size: 1.2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+}
+
+.info {
+	margin-bottom:  5%;
+}
+
+.importante {
+	font-weight: bold;
+	color: gray;
+	font-size: 11px;
+	margin-bottom: 5%;
+}
+
+#tipoUsuario {
+}
+
+.warning {
+	margin-bottom: 2%;
+	color: red;
+	font-weight: bold;
+}
+
+
+input[type='radio'] {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 1em;
+
+}
+
+label {
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	width: 99%;
+	
+}
+
+
+fieldset {
+	padding: 12px;
+	margin-bottom: 2%;
+}
+
+input[type="submit"]{
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: 2%;
+	margin-left: 25%;
+	width: 50%;
+	border-style: ;
+	font-size: 1em;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #9FB4CC;
+}
+
+
+:required{
+	/*
+	border: 1px solid red;
+	outline: none;
+	
+	border-color: #ffdddd;
+	border-width: 3px; */
+}
+
+
+#registrar label.error {
+  	color:#FB3A3A;
+  	font-weight:bold;
+	width: 99%;
+}

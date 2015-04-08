@@ -1,0 +1,25 @@
+Agricultura/Pesca/Ganadería
+Construcción/Obras
+Educación
+Energía
+Entretenimiento/Deportes
+Fabricación
+Finanzas/Banca
+Gobierno/No Lucro
+Hostelería/Turismo
+Informática/Hardware
+Informática/Software
+Internet
+Legal/Asesoría
+Materias Primas
+Medios de Comunicación
+Publicidad/RRPP
+RRHH/Personal
+Salud/Medicina
+Servicios Profesionales
+Telecomunicaciones
+Transporte
+Venta al consumidor
+Venta al por mayor
+Otros
+

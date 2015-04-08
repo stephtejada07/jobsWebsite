@@ -1,0 +1,17 @@
+
+		#result{ 
+			margin-left:5px; 
+		} 
+		#registrar .short{
+			color:#FF0000; 
+		} 
+		#registrar .weak{ 
+			color:#E66C2C;
+		} 
+		#registrar .good{
+			color:#2D98F3; 
+		} 
+		#registrar .strong{
+			color:#006400; 
+		}
+	
